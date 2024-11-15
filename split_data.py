@@ -30,7 +30,7 @@ def split_dataset(image_dir, train_dir, test_dir, test_size=0.2):
     print(f"Testing images: {len(test_images)}")
 
 if __name__ == "__main__":
-    image_dir = "../dataset/images"  # Source folder with all images
-    train_dir = "../dataset/train"   # Destination folder for training data
-    test_dir = "../dataset/test"     # Destination folder for testing data
+    image_dir = "../dataset/images"  
+    train_dir = "../dataset/train"  
+    test_dir = "../dataset/test"    
     split_dataset(image_dir , train_dir , test_dir , test_size= 0.2)
